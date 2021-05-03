@@ -44,6 +44,7 @@ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s http
 
 ```
 sudo mv ./kubectl /usr/local/bin/kubectl
+chmod +x /usr/local/bin/kubectl
 ```
 3- verify
 ```
